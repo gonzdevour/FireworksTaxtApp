@@ -27071,6 +27071,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.video.prototype.acts.SetVisible,
 	cr.plugins_.video.prototype.acts.Play,
 	cr.plugins_.video.prototype.cnds.OnPlaybackEvent,
-	cr.plugins_.video.prototype.acts.Destroy,
-	cr.plugins_.video.prototype.acts.SetLooping
+	cr.plugins_.video.prototype.acts.SetLooping,
+	cr.plugins_.video.prototype.acts.SetPlaybackTime,
+	cr.plugins_.video.prototype.acts.Pause
 ];};
